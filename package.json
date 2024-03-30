@@ -31,8 +31,6 @@
     "src"
   ],
   "scripts": {
-    "prepare": "npm run build-ts",
-    "build-ts": "tsc",
     "build:clean": "rm -rf dist",
     "build": "pnpm build:clean && tsup",
     "_fmt": "prettier 'src/**/*.ts' 'tests/**/*.ts' 'examples/**/*.js' 'examples/**/*.ts' '.eslintrc.js'",
