@@ -108,11 +108,17 @@ export enum AccountAuthenticatorVariant {
 export enum AnyPublicKeyVariant {
   Ed25519 = 0,
   Secp256k1 = 1,
+  Secp256r1 = 2,
 }
 
 export enum AnySignatureVariant {
   Ed25519 = 0,
   Secp256k1 = 1,
+  Secp256r1 = 2,
+}
+
+export enum AssertionSignatureVariant {
+  Secp256r1 = 0,
 }
 
 /**
